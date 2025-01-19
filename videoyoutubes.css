@@ -1,0 +1,120 @@
+
+
+.videoyt>.videoyout {
+    padding: 25px;
+
+}
+
+.videoyt> h2 {
+    font-size: 50px;
+}
+
+.videoyt> h3 {
+    font-size: 2em;
+}
+
+
+.videoyt {
+    text-align: center;
+    height: 100vh;
+    display: block;
+    align-content: center;
+}
+
+
+
+
+.description {
+    font-size: 1.75em;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.player {
+    aspect-ratio: 16 / 9;
+    width: 55%;
+}
+
+
+@media (max-width: 1440px) {
+    .videoyt h2 {
+        font-size: 37px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .videoyt h2 {
+        font-size: 37px;
+    }
+
+    .player {
+        width: 75%;
+    }
+
+    .description {
+
+        width: 75%;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .videoyt h2 {
+        font-size: 27px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .videoyt h2 {
+        font-size: 19px;
+    }
+
+    .videoyt h3 {
+        font-size: 25px;
+    }
+
+
+    .player {
+        width: 95%;
+    }
+
+    .description {
+
+        width: 95%;
+        font-size: 17px;
+    }
+
+    .videoyt {
+        height: 50vh;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .videoyt h2 {
+        font-size: 14px;
+    }
+
+    .videoyt h3 {
+        font-size: 18px;
+    }
+
+
+    .player {
+        width: 95%;
+    }
+
+    .description {
+
+        width: 95%;
+        font-size: 14px;
+    }
+
+    .videoyt {
+        height: 45vh;
+    }
+
+}
+
